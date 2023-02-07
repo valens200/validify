@@ -1,4 +1,4 @@
-package org.example.validator;
+package org.example.validators;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,21 +6,21 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 public class StringValidator {
-    boolean isNumber(Number number){
+   public boolean isNumber(Number number){
         if(number instanceof Integer || number instanceof Long || number instanceof  Float){
             return true;
         }else {
             return false;
         }
     }
-    boolean areEqual(String stringOne, String stringTwo){
+   public  boolean areEqual(String stringOne, String stringTwo){
         if(stringTwo.hashCode() == stringOne.hashCode()){
             return true;
         }else{
             return false;
         }
     }
-    boolean isEmail(String email){
+   public boolean isEmail(String email){
         if(email == null || email == "" || email == null ){
             throw  new IllegalArgumentException("The email to test should be not empty or null");
         }else {
@@ -37,12 +37,12 @@ public class StringValidator {
             }
         }
     }
-    boolean isIpV4(String ipv4){
-        Pattern pattern = Pattern.compile(".");
-        List<Integer> octetsNumbers = new ArrayList<Integer>();
-        String[] octets = pattern.split(ipv4);
-        Arrays.stream(octets).forEach(octet ->{
-            octetsNumbers.add(Integer.parseInt(octet));
-        });
-    }
+//    boolean isIpV4(String ipv4){
+//        Pattern pattern = Pattern.compile(".");
+//        List<Integer> octetsNumbers = new ArrayList<Integer>();
+//        String[] octets = pattern.split(ipv4);
+//        Arrays.stream(octets).forEach(octet ->{
+//            octetsNumbers.add(Integer.parseInt(octet));
+//        });
+//    }
 }

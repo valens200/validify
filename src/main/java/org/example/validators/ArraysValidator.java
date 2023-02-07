@@ -1,4 +1,4 @@
-package org.example.validator;
+package org.example.validators;
 
 public class ArraysValidator {
 }

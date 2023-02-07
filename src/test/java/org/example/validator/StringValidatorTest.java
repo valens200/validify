@@ -1,6 +1,7 @@
 package org.example.validator;
 
 import junit.framework.TestCase;
+import org.example.validators.StringValidator;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
