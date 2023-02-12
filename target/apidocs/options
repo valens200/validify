@@ -1,0 +1,24 @@
+-classpath
+'/home/valens/Documents/projects/java/validfy/target/classes'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/valens/Documents/projects/java/validfy/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/valens/Documents/projects/java/validfy/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Example Application 1.0-SNAPSHOT API'
+-linkoffline
+'http://docs.oracle.com/javase/7/docs/api' '/home/valens/Documents/projects/java/validfy/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Example Application 1.0-SNAPSHOT API'
