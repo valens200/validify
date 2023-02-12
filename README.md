@@ -7,4 +7,4 @@ this is a maven dependency to help you validfy all  data types in java including
 
 ######## Validator validator = new Validator();
  validator.isEMail("valens@gmail.com");
-######## validator.areEquals(new Object(), new Object());
+#### validator.areEquals(new Object(), new Object());
