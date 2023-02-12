@@ -6,5 +6,5 @@ this is a maven dependency to help you validfy all  data types in java including
 ######## import com.validfy.Validator
 
 ######## Validator validator = new Validator();
-######## validator.isEMail("valens@gmail.com");
+ validator.isEMail("valens@gmail.com");
 ######## validator.areEquals(new Object(), new Object());
