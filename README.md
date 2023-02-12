@@ -3,8 +3,8 @@ this is a maven dependency to help you validfy all  data types in java including
 
 
 #### How to use validfy in your java project?
-###import com.validfy.Validator
+######## import com.validfy.Validator
 
-Validator validator = new Validator();
-validator.isEMail("valens@gmail.com");
-validator.areEquals(new Object(), new Object());
+######## Validator validator = new Validator();
+######## validator.isEMail("valens@gmail.com");
+######## validator.areEquals(new Object(), new Object());
