@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"org.example","l":"Main"},{"p":"org.example.validator","l":"Validator"}]
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"org.example.validators","l":"ArraysValidator"},{"p":"org.example.validators","l":"ObjectsValidator"},{"p":"org.example.validators","l":"StringValidator"},{"p":"org.example.validators","l":"UrlsValidator"}]
