@@ -1,2 +1,5 @@
-/home/valens/Documents/projects/java/validfy/src/main/java/org/example/validator/Validator.java
-/home/valens/Documents/projects/java/validfy/src/main/java/org/example/Main.java
+/home/valens/Documents/projects/java/validfy/src/main/java/org/example/validators/UrlsValidator.java
+/home/valens/Documents/projects/java/validfy/src/main/java/org/example/validators/ArraysValidator.java
+/home/valens/Documents/projects/java/validfy/src/main/java/org/example/validators/ObjectsValidator.java
+/home/valens/Documents/projects/java/validfy/src/main/java/org/example/validators/StringValidator.java
+/home/valens/Documents/projects/java/validfy/src/main/java/org/example/validators/BranchesValidator.java

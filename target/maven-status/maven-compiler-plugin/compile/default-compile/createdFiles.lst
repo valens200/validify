@@ -1,0 +1,4 @@
+org/example/validators/ObjectsValidator.class
+org/example/validators/UrlsValidator.class
+org/example/validators/ArraysValidator.class
+org/example/validators/StringValidator.class
