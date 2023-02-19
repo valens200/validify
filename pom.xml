@@ -100,6 +100,12 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -107,24 +113,13 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.junit.jupiter</groupId>-->
-<!--            <artifactId>junit-jupiter</artifactId>-->
-<!--            <version>5.8.2</version>-->
-<!--        </dependency>-->
     </dependencies>
-    <licenses>
-        <license>
-            <name>MIT License</name>
-            <url>http://www.opensource.org/licenses/mit-license.php</url>
-        </license>
-    </licenses>
     <developers>
         <developer>
-            <name>Manfred Moser</name>
-            <email>manfred@sonatype.com</email>
-            <organization>Sonatype</organization>
-            <organizationUrl>http://www.sonatype.com</organizationUrl>
+            <name>valens NIYONSENGA</name>
+            <email>valens2003@gmail.com</email>
+            <organization>Rwanda coding academy</organization>
+            <organizationUrl>http://rca.ac.rw</organizationUrl>
         </developer>
     </developers>
     <distributionManagement>
