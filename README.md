@@ -55,6 +55,10 @@ validator.isNumber("4545"); //false
  
  validator.areEquals(person, person2); //true
  validator.areEqual(person, person1); //false
+ 
+ ### Maintainers
+
+- [@valens200](https://github.com/valens200)
 
 
 
