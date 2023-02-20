@@ -27,6 +27,7 @@ This is a maven dependency to help you validate  in java including arrays, objec
 
 
 ### isEmail
+
  validator.isEMail("valensniyonsenga2003@gmail.com"); //true
  validator.isEMail("valensniyonsenga2003@.com"); //false
 
@@ -36,6 +37,7 @@ This is a maven dependency to help you validate  in java including arrays, objec
 
 
 ### isNumber
+
 validator.isNumber(4545); //tue
 validator.isNumber("4545"); //false
 
@@ -44,7 +46,7 @@ validator.isNumber("4545"); //false
 
 
 ### areEqual
-```
+
 ``` assume that you have a Person and Animal class in your project
  Person person = new Person("mugabo javis");
  Persorn person2 = new Person("mugabo javis");
