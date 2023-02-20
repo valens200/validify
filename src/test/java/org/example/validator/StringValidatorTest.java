@@ -1,12 +1,12 @@
 package org.example.validator;
 
-import junit.framework.TestCase;
 import org.example.validators.StringValidator;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class StringValidatorTest  {
+
     StringValidator stringValidator = null;
     @Test
    public  void shouldEqualToTrue(){
@@ -18,5 +18,11 @@ public class StringValidatorTest  {
         stringValidator = new StringValidator();
         assertEquals(true,stringValidator.isEmail("uwavalens2003@gmail.com"));
     }
+    @Test
+    public  void shouldBeUrl(){
+        stringValidator = new StringValidator();
+        assertTrue(stringValidator.isUrl("https://www.javatpoint.com/java-regex"));
+    }
+
 
 }
