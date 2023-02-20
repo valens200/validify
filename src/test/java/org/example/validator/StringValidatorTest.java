@@ -11,16 +11,19 @@ public class StringValidatorTest  {
     @Test
    public  void shouldEqualToTrue(){
          stringValidator = new StringValidator();
-        assertTrue(stringValidator.areEqual("valens", "valens"));
+         //returns true
+        assertTrue(stringValidator.areEqual("valens", "valens")); 
     }
     @Test
   public   void shouldBeEmail(){
         stringValidator = new StringValidator();
+        //returns true
         assertEquals(true,stringValidator.isEmail("uwavalens2003@gmail.com"));
     }
     @Test
     public  void shouldBeUrl(){
         stringValidator = new StringValidator();
+        // return  true
         assertTrue(stringValidator.isUrl("https://www.javatpoint.com/java-regex"));
     }
 

@@ -19,7 +19,8 @@ public class ObjectsValidatorTest  {
     public  void shouldBeEqual(){
         Person person = new Person("valens");
         Person person1 = new Person("valens");
-        assertEquals(true, validator.areEquals(person1, person1));
+          //returns true
+        assertEquals(true, validator.areEquals(person1, person1)); 
     }
 
 }
